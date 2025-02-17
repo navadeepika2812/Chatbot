@@ -53,20 +53,7 @@ body {
     border-top: 1px solid #ccc;
     box-sizing:border-box;
 }
-.input-area input {
-    flex: 1;
-    padding: 8px;
-    border-radius: 25px;
-    border: 1px solid #ccc;
-    outline: none;
-    font-size: 16px;
-}
 
-.input-area button {
-    flex: 0; /* Prevents button from growing */
-    padding: 8px 12px;
-    white-space: nowrap; /* Prevents text from breaking */
-}
 
 /* Input */
 input {
