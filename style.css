@@ -14,8 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 600px;
-    height: 80vh;
+    max-width: 400px;
+    height: 550px;
     background: white;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -108,15 +108,15 @@ button:hover {
     padding: 10px;
 }
 
-/* Robot Image - No White Box */
+/* Robot Image - Adjustments for Desktop and Mobile */
 .robot-icon {
     position: absolute;
     top: 10px;
-    right: -250px;
-    
-    width: 250px;
-    height: auto;
+    right: -215px;
+    width: 200px; /* Adjusted size for mobile */
+    height: 205px;
     mix-blend-mode: multiply;
+    transition: all 0.3s ease-in-out;
 }
 
 /* Typing Dots */
@@ -169,8 +169,10 @@ button:hover {
         padding: 8px 12px;
     }
 
+    /* Adjust robot image size for mobile */
     .robot-icon {
-        width: 80px;
+        width: 60px; /* Smaller image size for mobile */
         top: 10px;
+        right: 10px; /* Keeps it within screen bounds */
     }
 }
